@@ -1,0 +1,178 @@
+*{
+    font-size: 12px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    top: 0;left: 0;bottom: 0;right: 0;
+    background-image: url(./vecteezy_Background-Watercolor_pg0321.jpg);
+    background-size: cover;
+    height: 100%;
+    position: fixed;
+}
+
+nav{
+    background: linear-gradient(90deg, #e66465, #964ea8, #9198e5);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    position:fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+nav > a{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+
+nav > a:hover{
+    transition: all ease 0.4s;
+    background: -webkit-linear-gradient(180deg, #e66465, white, #9198e5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ajouterP{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 2em;
+    font-family:sans-serif;
+    font-weight: 800;
+    background: -webkit-linear-gradient(90deg, #e66465, #9198e5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#newPost{
+    margin: -15px auto;
+    height: 20%;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    justify-content: space-evenly;
+}
+
+.postred{
+    background-color: red;
+    width: 25%;
+    height: 80%;
+    display: flex;
+    margin-bottom: 1%;
+    border-radius: 5px;
+    box-shadow: rgb(138, 5, 5) 1px 1px 2px 2px;
+    border-radius: 10px;
+}
+
+#ajoutPostRed{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-bottom: 1%;
+    border-radius: 5px;
+    box-shadow: rgb(138, 5, 5) 1px 1px 2px 2px;
+    border-radius: 10px;
+    opacity: 0%;
+}
+
+#ajoutPostRed:hover{
+    background-image: url(./Add-Icon-PNG-715x715.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    opacity: 60%;
+    transition: opacity ease 0.5s;
+}
+
+
+.postGreen{
+    background-color: green;
+    width: 25%;
+    height: 80%;
+    display: flex;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 5px;
+    box-shadow: rgb(2, 87, 2) 1px 1px 2px 2px;
+    border-radius: 10px;
+}
+
+#ajoutPostGreen{
+    background-color: green;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-bottom: 1%;
+    border-radius: 5px;
+    box-shadow: rgb(2, 87, 2) 1px 1px 2px 2px;
+    border-radius: 10px;
+    opacity: 0%;
+}
+
+#ajoutPostGreen:hover{
+    background-image: url(./Add-Icon-PNG-715x715.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    opacity: 60%;
+    transition: opacity ease 0.5s;
+}
+
+.postBlue{
+    background-color: blue;
+    width: 25%;
+    height: 80%;
+    display: flex;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 5px;
+    box-shadow: rgb(2, 2, 104) 1px 1px 2px 2px;
+    border-radius: 10px;
+}
+
+#ajoutPostBlue{
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-bottom: 1%;
+    border-radius: 5px;
+    box-shadow: rgb(2, 2, 104) 1px 1px 2px 2px;
+    border-radius: 10px;
+    opacity: 0%;
+}
+
+#ajoutPostBlue:hover{
+    background-image: url(./Add-Icon-PNG-715x715.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    opacity: 60%;
+    transition: opacity ease 0.5s;
+}
+
+
+.border-gradient {
+    border: 10px solid;
+    border-radius: 5px;
+    border-image-slice: 1;
+    border-width: 5px;
+}
+.border-gradient-purple {
+    border-image-source: linear-gradient(260deg, #e66465, #964ea8, #9198e5);
+}
+
+.textA{
+    width: 180px;
+    height: 300px;
+    background:none
+}
